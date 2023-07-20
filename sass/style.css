@@ -1,0 +1,46 @@
+/*# sourceMappingURL=style.css.map */
+.textocentrado {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header a {
+  margin: 0 10px;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card button {
+  width: 60%;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.centrado1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 35px;
+}/*# sourceMappingURL=style.css.map */
+
+.backgroundnew{
+  color: rgb(198, 218, 129);
+}
