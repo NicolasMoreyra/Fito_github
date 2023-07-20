@@ -61,6 +61,10 @@ nav ul li {
 .parrafo {
   font-size: 1.5rem;
   color: rgb(0, 0, 0);
+  text-align: justify;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 main section p {
@@ -185,6 +189,7 @@ video {
 
 .text-wrapper {
   flex: 1;
+  margin-top: 30px;
 }
 
 .flex-container {
