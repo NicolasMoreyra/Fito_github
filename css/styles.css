@@ -356,6 +356,8 @@ ul {
     width: 30%;
     height: 30%;
     margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .img2{
@@ -386,4 +388,8 @@ ul {
     width: 30px;
   }
 
-  
+footer{
+  background-color: rgb(148, 202, 202);
+  height: 250px;
+
+ }
