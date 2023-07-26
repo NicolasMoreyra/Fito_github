@@ -1,4 +1,274 @@
-/*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+h1 {
+  color: firebrick;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: xx-large;
+}
+
+section article h3 {
+  color: aquamarine;
+}
+
+h3,
+h2,
+h1 {
+  text-align: center;
+}
+
+article h3 {
+  color: blueviolet;
+}
+
+.color-azul {
+  color: rgb(255, 255, 255);
+  background-color: lightblue;
+}
+
+.fondonegro {
+  color: lightblue;
+}
+
+.portada {
+  background-color: rgb(97, 167, 167);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 600px;
+  height: 350px;
+  overflow: auto;
+  border-color: rgb(150, 209, 224);
+  border-style: solid;
+  border-width: 5px;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+
+.textoblanco {
+  color: white;
+  text-align: center;
+}
+
+.textoamarillo {
+  color: yellow;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.parrafo {
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+main section p {
+  color: black;
+}
+
+main section h3 {
+  font-size: 1.5rem;
+  color: rgb(2, 2, 2);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cajaposicion {
+  background-color: rgb(112, 112, 226);
+  margin: 0;
+}
+
+.size {
+  image-resolution: 600px 350px;
+}
+
+.caja {
+  background-color: rgb(175, 230, 230);
+  height: 98vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+header {
+  background-color: rgb(148, 202, 202);
+  width: 100vw;
+}
+
+.fade {
+  background-color: rgb(178, 184, 124);
+  transition: background-color 1s ease;
+}
+
+.fade:hover {
+  background-color: rgb(113, 158, 102);
+}
+
+.contenedor {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+
+.contenedor p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-achicada {
+  margin-right: 10px;
+  width: 300px;
+  height: auto;
+}
+
+.news-container {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.news-article {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #dfce98;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.news-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.news-date {
+  font-style: italic;
+  color: #888;
+}
+
+.news-content {
+  margin-top: 10px;
+}
+
+.news-article img {
+  width: 100%;
+  max-height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.txtwhite {
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  width: 70%;
+}
+
+.text-wrapper {
+  flex: 1;
+  margin-top: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: #f2f2f2;
+  margin: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.item {
+  background-color: #b3976e;
+  padding: 20px;
+}
+
+.card {
+  background-color: #e0ddc2;
+  padding: 20px;
+}
+
+.card__title {
+  font-size: 24px;
+}
+
+.card__description {
+  font-size: 16px;
+}
+
+.card__button {
+  border: none;
+  padding: 10px 20px;
+}
+
+.card__button--primary {
+  background-color: blue;
+  color: white;
+}
+
+.card__button--secondary {
+  background-color: gray;
+  color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Crea 3 columnas de igual tamaño */
+  grid-gap: 10px;
+  /* Espacio entre los elementos */
+}
+
+.item {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Reglas de estilo para dispositivos Android en orientación horizontal */
+  .container {
+    padding: 30px;
+  }
+}
+/* Estilos para dispositivos Android en orientación vertical */
+@media only screen and (min-device-width: 360px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .container {
+    padding: 40px;
+  }
+}
+/* Estilos generales */
+/* Media queries para dispositivos más pequeños */
+@media (max-width: 767px) {
+  /* Reglas de estilo específicas para pantallas pequeñas */
+}
+/* Media queries para dispositivos medianos */
+/* Media queries para dispositivos más grandes */
 .textocentrado {
   text-align: center;
   display: flex;
@@ -39,8 +309,130 @@ ul {
   flex-direction: column;
   justify-content: center;
   margin-right: 35px;
-}/*# sourceMappingURL=style.css.map */
-
-.backgroundnew{
-  color: rgb(198, 218, 129);
 }
+
+.centrado2 {
+  margin-left: 40%;
+  margin-top: 2%;
+}
+
+.centrado3 {
+  margin-top: 30px;
+}
+
+.bodyback {
+  background-color: rgb(250, 250, 235);
+}
+
+.textonegro {
+  color: #0e0c0c;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.izquierda {
+  text-align: left;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 30%;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.img2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 30%;
+  margin-top: 30px;
+}
+
+.textcl {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  text-align: justify;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.cont12 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.img3 {
+  height: 50%;
+  width: 30px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  /* Estilos para la columna izquierda del footer */
+}
+
+.footer-right {
+  margin-right: 20px;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-right li {
+  margin-bottom: 10px;
+}
+
+.footer-right a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+.footerredes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.margenh2 {
+  margin-top: 20px;
+  margin-right: 15px;
+  text-align: center;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */

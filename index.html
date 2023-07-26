@@ -18,11 +18,13 @@
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./scss/style.css">
 </head>
 
 <body class="bodyback">
     <header>
-        <h1 id="Título" class="textoblanco">Fito Paéz, El Trovador del rock argentino</h1>
+        <h1 class="textoblanco" id="Título">Fito Paéz, El Trovador del rock argentino</h1>
         <hr>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <img src="./img/favicon.ico" alt="" class="img3">
@@ -56,7 +58,7 @@
     <main>
         <section>
             <article>
-                <h2><strong>¿Quién es Fito Paéz?</strong></h3>
+                <h2 class="margenh2"><strong>¿Quién es Fito Paéz?</strong></h3>
                     <p class="parrafo">Rodolfo Páez, más conocido como Fito Páez, ​​es un músico,
                         compositor, pianista,
                         director de cine y
@@ -69,9 +71,11 @@
                     <div class="video-container">
                         <video src="./videos/videoplayback (1).mp4" controls></video>
                         <div class="text-wrapper">
-                            <h2>Fito, grabado en vivo el 24 de abril de 2008 en el Palacio de los Congresos, Madrid.
-                            </h2>
-                            <p class="textcl">«11 y 6» es una de las canciones clásicas y conocidas del rock argentino y
+                            <h3 class="margenh2"><strong>Fito, grabado en vivo el 24 de abril de 2008 en el Palacio de
+                                    los Congresos, Madrid.
+                                </strong></h3>
+                            <p class="parrafo">«11 y 6» es una de las canciones clásicas y conocidas del rock argentino
+                                y
                                 del cantautor
                                 rosarino Fito Páez, su compositor e intérprete.​ Es el cuarto tema del disco Giros, el
                                 segundo álbum del músico argentino, editado el 11 de junio de 1985.</p>
@@ -108,7 +112,7 @@
         <hr>
         <div class="news-container">
 
-            <h3 class="textonegro">Sección Noticias</h3>
+            <h2 class="margenh2"><strong>Sección Noticias</strong></h2>
 
             <div class="news-article">
                 <img src="./img/lali_esposito_fito_paez_el_amor_despues_del_amor.jpg_1710391874.webp"
@@ -132,6 +136,7 @@
             </div>
         </div>
         <hr>
+
         <section>
             <div class="flex-container">
                 <div class="item">Item 1</div>
@@ -143,6 +148,7 @@
                 <div class="item">Elemento 2</div>
                 <div class="item">Elemento 3</div>
             </div>
+
             <div class="card">
                 <h2 class="card__title"><strong>Fito el trovador del rock</strong></h2>
                 <p class="card__description">¿Desea suscribirse a noticias diarias de fito?</p>
@@ -151,42 +157,44 @@
                     <button class="card__button card__button--secondary">No volver a mostrar</button>
                 </div>
             </div>
+
         </section>
+
 
     </main>
     <hr>
-    <footer class="footercolor">
-        <div>
-            <h4 id="Contacto">Redes Sociales</h4>
-            <nav>
-                <ul class="centrado1">
-                    <li> <a href="https://www.instagram.com/nicoo.moreyra/" target="_blank">Instagram</a></li>
-                    <li>Facebook</li>
-                    <li>Whatsapp</li>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <p class="textcl">Puede seguir explorando todas nuestras secciones para saber más acerca de Fito</p>
+            </div>
+            <div class="footer-right">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Comunidad</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
         <div>
-            <div>
-                <h4>Legales</h>
-                    <nav>
-                        <ul>
-                            <li>Privacidad</li>
-                            <li>Términos de uso</li>
-                            <li>Condiciones</li>
-                        </ul>
-                    </nav>
-            </div>
+            <h4><strong>Redes Sociales</strong></h3>
+                <hr>
+            <ul class="footerredes">
+                <li class="margenizquierda"><a href="https://www.instagram.com/nicoo.moreyra/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100019369507262">Facebook</a></li>
+                <li class="margenderecha"><a href="">Twitter</a></li>
+            </ul>
+        </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
 
 </body>
 
