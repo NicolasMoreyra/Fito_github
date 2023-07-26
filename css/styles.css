@@ -100,9 +100,6 @@ header {
   width: 100vw;
 }
 
-body {
-  background-color: rgb(66, 110, 139);
-}
 
 .fade {
 
@@ -144,7 +141,7 @@ body {
 .news-article {
   margin-bottom: 20px;
   padding: 10px;
-  background-color: #f5f5f5;
+  background-color: #dfce98;
 }
 
 .news-title {
@@ -212,12 +209,12 @@ video {
 }
 
 .item {
-  background-color: #f2f2f2;
+  background-color: #b3976e;
   padding: 20px;
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #c7bf7b;
   padding: 20px;
 }
 
@@ -348,3 +345,45 @@ ul {
   p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  .izquierda{
+    text-align: left;
+  }
+
+  .img1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 30%;
+    margin-top: 30px;
+  }
+
+  .img2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 30%;
+    margin-top: 30px;
+  }
+
+  .textcl{
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .cont12{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .img3{
+    height: 30px;
+    width: 30px;
+  }
+
+  
