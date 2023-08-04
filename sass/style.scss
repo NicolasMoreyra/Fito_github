@@ -382,16 +382,6 @@ footer {
   text-decoration: underline;
 }
 
-.footerredes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
 
 .margenh2 {
   margin-top: 20px;
@@ -535,3 +525,13 @@ body {
 
 
 }
+
+.social-icon {
+  margin: 0 20px; /* Espacio horizontal entre los iconos */
+}
+
+.social-icon img {
+  width: 50px; /* Ajustar el tamaño de los logos según tus necesidades */
+  height: 50px;
+}
+
